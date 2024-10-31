@@ -29,7 +29,7 @@ function init() {
 
 
   loader.load(
-    '../assets/images/lampe-v3/V6.glb', (gltf) => {
+    '../assets/V6.glb', (gltf) => {
       model = gltf.scene;
       model.scale.setScalar(1);
       scene.add(model);

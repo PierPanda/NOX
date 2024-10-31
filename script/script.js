@@ -1,6 +1,7 @@
 // import * as THREE from 'three.js';
 import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+
 gsap.registerPlugin(ScrollTrigger);
 
 let scene, camera, renderer, model;
